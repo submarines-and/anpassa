@@ -3,5 +3,8 @@ Configuration files for various mac apps. Repo also contains the backup script a
 
 
 ## Usage 
-1) Make backup script executable: `chmod +x backup.sh`
-2) Change program path `~/dev/anpassa/backup.sh` so it points to where you are storing this repository
+1) Change all pahts in `com.submarines.backup-config.plist` and `backup.sh` so they work for your system.
+2) Make backup script executable: `chmod +x backup.sh`
+3) Copy `com.submarines.backup-config.plist` to `/Users/submarines/Library/LaunchAgents/com.submarines.backup-config.plist`
+4) Load `launchctl load ~/Library/LaunchAgents/com.submarines.backup-config.plist`
+5) Run `launchctl start com.submarines.backup-config.plist`
