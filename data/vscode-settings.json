@@ -40,5 +40,4 @@
   "git.detectSubmodules": false,
   "diffEditor.wordWrap": "on",
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Default Light+",
 }
