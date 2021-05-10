@@ -571,7 +571,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "spotlight"
+                            "key_code": "keypad_9"
                         }
                     ]
                 },
