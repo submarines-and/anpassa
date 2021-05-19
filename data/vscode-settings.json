@@ -51,4 +51,5 @@
   "workbench.colorTheme": "Default Light+",
   "Lua.hover.enumsLimit": 0,
   "snyk.uploadApproved": true,
+  "snyk.yesWelcomeNotification": false
 }
