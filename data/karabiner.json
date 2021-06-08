@@ -425,9 +425,7 @@
                                         ],
                                         "type": "frontmost_application_if"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "left_option"
                                 },
@@ -436,7 +434,9 @@
                                         "key_code": "left_command"
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
@@ -444,9 +444,7 @@
                                         ],
                                         "type": "frontmost_application_if"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "tab",
                                     "modifiers": {
@@ -463,7 +461,9 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
@@ -471,9 +471,7 @@
                                         ],
                                         "type": "frontmost_application_if"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "c",
                                     "modifiers": {
@@ -490,7 +488,9 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
@@ -498,9 +498,7 @@
                                         ],
                                         "type": "frontmost_application_if"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -517,7 +515,9 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
@@ -525,9 +525,7 @@
                                         ],
                                         "type": "frontmost_application_if"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "a",
                                     "modifiers": {
@@ -605,16 +603,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_option"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_command"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "right_command"
                             },
                             "to": [
@@ -622,11 +610,19 @@
                                     "key_code": "right_option"
                                 }
                             ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_command"
+                                }
+                            ]
                         }
                     ]
                 },
-
-                
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
@@ -691,21 +687,21 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_option"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_command"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "right_command"
                             },
                             "to": [
                                 {
                                     "key_code": "right_option"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_command"
                                 }
                             ]
                         }
