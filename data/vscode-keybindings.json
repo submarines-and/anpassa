@@ -196,5 +196,19 @@
         "key": "alt+cmd+r",
         "command": "-revealFileInOS",
         "when": "!editorFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "make run\u000D" }
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+k cmd+b",
+        "command": "-editor.action.setSelectionAnchor",
+        "when": "editorTextFocus"
     }
 ]
