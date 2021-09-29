@@ -27,6 +27,8 @@
     "workbench.tree.expandMode": "singleClick",
     "git.allowForcePush": true,
     "git.defaultCloneDirectory": "/Users/submarines/dev",
-    "workbench.colorTheme": "Default Light+",
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "snyk.yesWelcomeNotification": false,
+    "window.autoDetectColorScheme": true
 }
