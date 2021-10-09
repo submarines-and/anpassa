@@ -29,6 +29,5 @@
     "git.defaultCloneDirectory": "/Users/submarines/dev",
     "redhat.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "snyk.yesWelcomeNotification": false,
     "window.autoDetectColorScheme": true
 }
