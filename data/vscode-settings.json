@@ -29,5 +29,7 @@
     "git.defaultCloneDirectory": "/Users/submarines/dev",
     "redhat.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "codeSight.warnings.showAll": false,
+    "security.workspace.trust.untrustedFiles": "open",
 }
