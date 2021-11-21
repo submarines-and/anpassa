@@ -350,14 +350,14 @@
                         ]
                     },
                     {
-                        "description": "Delete on shift backspace",
+                        "description": "Delete on command backspace",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "delete_or_backspace",
                                     "modifiers": {
                                         "mandatory": [
-                                            "shift"
+                                            "command"
                                         ]
                                     }
                                 },
