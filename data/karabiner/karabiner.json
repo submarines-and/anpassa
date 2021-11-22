@@ -357,7 +357,7 @@
                                     "key_code": "delete_or_backspace",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "option"
                                         ]
                                     }
                                 },
