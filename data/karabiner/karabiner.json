@@ -353,11 +353,19 @@
                         "description": "Delete on command backspace",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^((?!com.apple.finder).)*$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "delete_or_backspace",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "command"
                                         ]
                                     }
                                 },
