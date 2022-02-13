@@ -619,12 +619,13 @@
                         "product_id": 45091,
                         "vendor_id": 1133
                     },
-                    "ignore": true,
+                    "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": [
                         {
                             "from": {
                                 "pointing_button": "button4"
+                                
                             },
                             "to": [
                                 {
@@ -633,11 +634,13 @@
                                         "left_command"
                                     ]
                                 }
-                            ]
+                            ],
+                            "type": "basic"
                         },
                         {
                             "from": {
                                 "pointing_button": "button5"
+                                
                             },
                             "to": [
                                 {
@@ -646,7 +649,8 @@
                                         "left_command"
                                     ]
                                 }
-                            ]
+                            ],
+                            "type": "basic"
                         }
                     ]
                 }
@@ -781,6 +785,16 @@
             "simple_modifications": [
                 {
                     "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "vk_none"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "apple_vendor_top_case_key_code": "keyboard_fn"
                     },
                     "to": [
@@ -796,16 +810,6 @@
                     "to": [
                         {
                             "key_code": "delete_forward"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "caps_lock"
-                    },
-                    "to": [
-                        {
-                            "key_code": "vk_none"
                         }
                     ]
                 },
