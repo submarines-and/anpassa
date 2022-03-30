@@ -210,5 +210,13 @@
         "key": "cmd+k cmd+b",
         "command": "-editor.action.setSelectionAnchor",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[BracketLeft]",
+        "command": "extension.base64Encode"
+    },
+    {
+        "key": "shift+cmd+[Quote]",
+        "command": "extension.base64Decode"
     }
 ]
