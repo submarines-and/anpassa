@@ -29,9 +29,10 @@
     "git.defaultCloneDirectory": "/Users/submarines/dev",
     "redhat.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.autoDetectColorScheme": true,
     "security.workspace.trust.untrustedFiles": "open",
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Default Light+",
 }
