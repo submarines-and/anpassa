@@ -258,10 +258,10 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "left_option"
                                         ]
                                     }
                                 },
@@ -274,10 +274,10 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "left_option"
                                         ]
                                     }
                                 },
@@ -298,7 +298,7 @@
                                     "key_code": "hyphen",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "left_option"
                                         ]
                                     }
                                 },
@@ -314,7 +314,7 @@
                                     "key_code": "equal_sign",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "left_option"
                                         ]
                                     }
                                 },
