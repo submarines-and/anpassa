@@ -23,6 +23,7 @@
     "editor.wordWrapColumn": 500,
     "html.format.wrapLineLength": 0,
     "editor.wordWrap": "on",
+    "clang-format.style": "{  ColumnLimit: 0 }",
     "extensions.ignoreRecommendations": true,
     "workbench.tree.expandMode": "singleClick",
     "git.allowForcePush": true,
@@ -60,4 +61,7 @@
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
     "workbench.colorTheme": "Default Light+",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
 }
