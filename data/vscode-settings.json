@@ -63,7 +63,7 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "clang-format.style": "{ ColumnLimit: 0 } ",
-    "C_Cpp.clang_format_fallbackStyle": "{  BasedOnStyle: LLVM, PointerAlignment: Left, ColumnLimit: 0, IndentWidth: 4, AccessModifierOffset: -4, SortIncludes: Never, BreakBeforeBraces: Stroustrup }",
+    "C_Cpp.clang_format_fallbackStyle": "{  BasedOnStyle: LLVM, PointerAlignment: Left, ColumnLimit: 0, IndentWidth: 4, AccessModifierOffset: -4, BreakBeforeBraces: Stroustrup }",
     "C_Cpp.files.exclude": {
         "**.o": true,
         "**.tmp": true,
