@@ -396,7 +396,8 @@
     },
     {
         "key": "cmd+t",
-        "command": "C_Cpp.SwitchHeaderSource"
+        "command": "C_Cpp.SwitchHeaderSource",
+        "when": "resourceExtname == .cpp || resourceExtname == .h"
     },
     {
         "key": "cmd+g",
@@ -436,5 +437,31 @@
         "key": "alt+cmd+p",
         "command": "-keybindings.editor.toggleSortByPrecedence",
         "when": "inKeybindings"
+    },
+    {
+        "key": "shift+alt+p",
+        "command": "-extension.switchSpec"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "-extension.switchStyle"
+    },
+    {
+        "key": "cmd+t",
+        "command": "extension.switchTemplate",
+        "when": "resourceExtname == .ts"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "-extension.switchTemplate"
+    },
+    {
+        "key": "cmd+t",
+        "command": "extension.switchTs",
+        "when": "resourceExtname == .html"
+    },
+    {
+        "key": "shift+alt+u",
+        "command": "-extension.switchTs"
     }
 ]
