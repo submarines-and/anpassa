@@ -140,4 +140,5 @@
         "__availability": "cpp"
     },
     "search.defaultViewMode": "tree",
+    "git.openRepositoryInParentFolders": "never",
 }
