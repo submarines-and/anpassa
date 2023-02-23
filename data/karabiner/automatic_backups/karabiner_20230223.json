@@ -170,13 +170,93 @@
                                     "key_code": "left_arrow",
                                     "modifiers": {
                                         "mandatory": [
+                                            "right_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "rewind"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "fastforward"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "up_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "play_or_pause"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "left_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "rewind"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "left_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
                                             "right_command"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to back track'"
+                                        "key_code": "rewind"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "fastforward"
                                     }
                                 ],
                                 "type": "basic"
@@ -192,7 +272,23 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to next track'"
+                                        "key_code": "fastforward"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "up_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "play_or_pause"
                                     }
                                 ],
                                 "type": "basic"
@@ -208,7 +304,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to playpause'"
+                                        "key_code": "play_or_pause"
                                     }
                                 ],
                                 "type": "basic"
@@ -348,12 +444,12 @@
                                 },
                                 "to_after_key_up": [
                                     {
+                                        "repeat": false,
                                         "consumer_key_code": "eject",
                                         "modifiers": [
                                             "command",
                                             "option"
-                                        ],
-                                        "repeat": false
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -375,12 +471,12 @@
                                 },
                                 "to_after_key_up": [
                                     {
+                                        "repeat": false,
                                         "consumer_key_code": "eject",
                                         "modifiers": [
                                             "command",
                                             "option"
-                                        ],
-                                        "repeat": false
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -517,137 +613,6 @@
                                         "modifiers": [
                                             "left_option"
                                         ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "⏪ (back track) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f7"
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to back track'"
-                                    }
-                                ],
-                                "to_if_held_down": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to rewind'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "⏯ (play/pause) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f8"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to playpause'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "⏩ (next track) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f9"
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to next track'"
-                                    }
-                                ],
-                                "to_if_held_down": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to fast forward'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fn+⏪ (back track) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f7",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to back track'"
-                                    }
-                                ],
-                                "to_if_held_down": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to rewind'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fn+⏯ (play/pause) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f8",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to playpause'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fn+⏩ (next trackx) key should only control Music.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f9",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to next track'"
-                                    }
-                                ],
-                                "to_if_held_down": [
-                                    {
-                                        "shell_command": "osascript -e 'tell application \"Music\" to fast forward'"
                                     }
                                 ],
                                 "type": "basic"
@@ -853,21 +818,21 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_command"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_option"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "right_option"
                             },
                             "to": [
                                 {
                                     "key_code": "right_command"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_command"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
                                 }
                             ]
                         }
