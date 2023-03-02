@@ -139,6 +139,5 @@
         "unordered_set": "cpp",
         "__availability": "cpp"
     },
-    "search.defaultViewMode": "tree",
     "git.openRepositoryInParentFolders": "never",
 }
