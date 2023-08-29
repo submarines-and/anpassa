@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.1
+! Version: 0.0.2
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 4 days (update frequency)
