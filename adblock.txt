@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Version: 0.0.1
+! Title: submarines filter list
+! Last modified:
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/submarines-and/anpassa
+!
 flashback.org###top-banner-wrapper
 reddit.com##google-one-tap
 reddit.com##.left-sidebar
