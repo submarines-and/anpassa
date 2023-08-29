@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.2
+! Version: 0.0.3
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 4 days (update frequency)
@@ -9,3 +9,9 @@ flashback.org###top-banner-wrapper
 reddit.com##google-one-tap
 reddit.com##.left-sidebar
 reddit.com##.left-sidebar-min
+wowhead.com##.news-recent
+wowhead.com##.news-content-spotlight
+wowhead.com##.row-featured-content
+wowhead.com##.sticky-news-heading
+wowhead.com##.news-list-wrapper
+wowhead.com##.main-news-heading
