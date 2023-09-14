@@ -374,7 +374,8 @@
     {
         "key": "cmd+b",
         "command": "workbench.action.tasks.runTask",
-        "args": "build"
+        "args": "build",
+        "when": "editorLangId == 'cpp'"
     },
     {
         "key": "cmd+p",
@@ -513,11 +514,6 @@
         "when": "!inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'node' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-node'"
     },
     {
-        "key": "cmd+b",
-        "command": "workbench.action.debug.start",
-        "when": "debuggersAvailable && debugState == 'inactive' && editorLangId == 'typescript'"
-    },
-    {
         "key": "f5",
         "command": "-workbench.action.debug.start",
         "when": "debuggersAvailable && debugState == 'inactive'"
@@ -525,5 +521,10 @@
     {
         "key": "alt+cmd+b",
         "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.debug.run",
+        "when": "debuggersAvailable && debugState == 'inactive'"
     }
 ]
