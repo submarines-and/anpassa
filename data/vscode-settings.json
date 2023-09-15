@@ -140,4 +140,5 @@
         "__availability": "cpp"
     },
     "git.openRepositoryInParentFolders": "never",
+    "debug.onTaskErrors": "abort",
 }
