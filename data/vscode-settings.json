@@ -141,4 +141,12 @@
     },
     "git.openRepositoryInParentFolders": "never",
     "debug.onTaskErrors": "abort",
+    "arduino.clearOutputOnBuild": true,
+    "arduino.logLevel": "verbose",
+    "arduino.useArduinoCli": true,
+    "arduino.path": "/Users/submarines",
+    "arduino.commandPath": "arduino-cli",
+    "arduino.additionalUrls": [
+        "https://arduino.esp8266.com/stable/package_esp8266com_index.json"
+    ],
 }
