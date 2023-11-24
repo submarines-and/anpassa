@@ -68,6 +68,7 @@
         "**.o": true,
         "**.tmp": true,
     },
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "files.associations": {
         "complex": "cpp",
         "__bit_reference": "cpp",
