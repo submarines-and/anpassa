@@ -17,3 +17,4 @@ wowhead.com##.row-featured-content
 wowhead.com##.sticky-news-heading
 wowhead.com##.main-news-heading
 rikatillsammans.se##.fc-dialog-container
+youtube.com##.YtInlinePlayerControlsTopLeftControls
