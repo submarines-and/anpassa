@@ -7,4 +7,5 @@ ln -s ~/Developer/anpassa/data/xcode-keybindings.idekeybindings ~/Library/Develo
 
 
 ln -s ~/Developer/anpassa/data/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json 
-ln -s ~/Developer/anpassa/data/vscode-keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
+ln -s ~/Developer/anpassa/data/vscode-keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/Developer/anpassa/data/vscode-argv.json ~/.vscode/argv.json 
