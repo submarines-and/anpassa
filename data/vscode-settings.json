@@ -154,4 +154,5 @@
     "workbench.tree.enableStickyScroll": false,
     "git.path": "/usr/bin/git",
     "workbench.colorTheme": "Default Light Modern",
+    "chat.commandCenter.enabled": false,
 }
