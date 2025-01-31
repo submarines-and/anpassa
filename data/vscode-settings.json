@@ -10,6 +10,7 @@
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit"
     },
+    "editor.formatOnSave": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.wordSeparators": "`~!@%^&*()=+[{]}\\|;:'\",.<>/?-",
     "breadcrumbs.enabled": true,
