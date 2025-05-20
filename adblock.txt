@@ -10,14 +10,9 @@ news.ycombinator.com##.hnname
 reddit.com##google-one-tap
 reddit.com##.left-sidebar
 reddit.com##.left-sidebar-min
-twitch.tv###twilight-sticky-footer-root
-wowhead.com##.news-recent
-wowhead.com##.news-content-spotlight
-wowhead.com##.row-featured-content
-wowhead.com##.sticky-news-heading
-wowhead.com##.main-news-heading
-rikatillsammans.se##.fc-dialog-container
 oldschool.runescape.wiki##.mainpage-header
+oldschool.runescape.wiki##.vector-legacy-sidebar
+oldschool.runescape.wiki###mw-head
 youtube.com##.YtInlinePlayerControlsTopLeftControls
 youtube.com##.ytmPaidContentOverlayHost
 youtube.com##.ytInlinePlayerControlsDarkenedOverlay
