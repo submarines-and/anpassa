@@ -11,6 +11,7 @@ reddit.com##google-one-tap
 reddit.com##.left-sidebar
 reddit.com##.left-sidebar-min
 reddit.com###reddit-logo
+reddit.com###right-sidebar-container
 oldschool.runescape.wiki##.mainpage-header
 oldschool.runescape.wiki##.vector-legacy-sidebar
 oldschool.runescape.wiki###mw-head
