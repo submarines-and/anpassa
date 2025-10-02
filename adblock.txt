@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.11
+! Version: 0.0.12
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 3 days (update frequency)
@@ -18,3 +18,5 @@ oldschool.runescape.wiki###mw-head
 youtube.com##.YtInlinePlayerControlsTopLeftControls
 youtube.com##.ytmPaidContentOverlayHost
 youtube.com##.ytInlinePlayerControlsDarkenedOverlay
+youtube.com###guide
+youtube.com#$#page-manager { margin-left: 0 !important; }
