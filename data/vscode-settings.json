@@ -156,4 +156,13 @@
     "git.path": "/usr/bin/git",
     "workbench.colorTheme": "Default Light Modern",
     "chat.commandCenter.enabled": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 }
