@@ -132,7 +132,7 @@
         "command": "-workbench.action.files.saveWithoutFormatting"
     },
     {
-        "key": "cmd+k s",
+        "key": "shift+cmd+s",
         "command": "workbench.action.files.saveFiles"
     },
     {
@@ -619,5 +619,14 @@
         "key": "shift+cmd+l",
         "command": "-selectAllSearchEditorMatches",
         "when": "inSearchEditor"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.files.saveLocalFile",
+        "when": "remoteFileDialogVisible"
     }
 ]
