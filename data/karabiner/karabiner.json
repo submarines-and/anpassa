@@ -366,13 +366,13 @@
                         ]
                     },
                     {
-                        "description": "Delete on command backspace",
+                        "description": "Delete on command backspace in vscode",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^((?!com.apple.finder).)*$"
+                                            "^com.microsoft.VSCode$"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
