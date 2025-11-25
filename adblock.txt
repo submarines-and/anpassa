@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.3
+! Version: 0.0.4
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 4 days (update frequency)
@@ -13,5 +13,4 @@ wowhead.com##.news-recent
 wowhead.com##.news-content-spotlight
 wowhead.com##.row-featured-content
 wowhead.com##.sticky-news-heading
-wowhead.com##.news-list-wrapper
 wowhead.com##.main-news-heading
