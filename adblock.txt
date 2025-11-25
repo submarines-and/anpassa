@@ -8,3 +8,4 @@
 flashback.org###top-banner-wrapper
 reddit.com##google-one-tap
 reddit.com##.left-sidebar
+reddit.com##.left-sidebar-min
