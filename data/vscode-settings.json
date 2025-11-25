@@ -6,8 +6,8 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.autoReveal": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.wordSeparators": "`~!@%^&*()=+[{]}\\|;:'\",.<>/?-",
@@ -42,7 +42,7 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "explorer.excludeGitIgnore": false,
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
