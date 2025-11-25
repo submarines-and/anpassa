@@ -399,6 +399,14 @@
                         "description": "Swap command <> option for wow",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.blizzard\\.worldofwarcraft$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "left_command"
                                 },
@@ -407,7 +415,9 @@
                                         "key_code": "left_option"
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
@@ -534,15 +544,7 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.blizzard\\.worldofwarcraft$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     }
