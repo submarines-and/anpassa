@@ -26,6 +26,7 @@
     "extensions.ignoreRecommendations": true,
     "workbench.tree.expandMode": "singleClick",
     "git.allowForcePush": true,
+    "git.mergeEditor": false,
     "git.defaultCloneDirectory": "/Users/submarines/dev",
     "redhat.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -43,5 +44,7 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
+    "explorer.excludeGitIgnore": true,
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
     "workbench.colorTheme": "Default Light+",
 }
