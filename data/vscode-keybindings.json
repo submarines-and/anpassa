@@ -169,10 +169,6 @@
         "command": "-workbench.action.tasks.build"
     },
     {
-        "key": "shift+cmd+b",
-        "command": "git.branch"
-    },
-    {
         "key": "alt+cmd+r",
         "command": "-toggleSearchEditorRegex",
         "when": "inSearchEditor && searchInputBoxFocus"
@@ -500,5 +496,34 @@
     {
         "key": "shift+cmd+h",
         "command": "-workbench.action.replaceInFiles"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-workbench.action.debug.run",
+        "when": "debuggersAvailable && debugState != 'initializing'"
+    },
+    {
+        "key": "f10",
+        "command": "-extension.node-debug.startWithStopOnEntry",
+        "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
+    },
+    {
+        "key": "f11",
+        "command": "-extension.node-debug.startWithStopOnEntry",
+        "when": "!inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'node' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-node'"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive' && editorLangId == 'typescript'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
     }
 ]
