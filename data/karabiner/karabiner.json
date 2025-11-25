@@ -307,7 +307,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "hyphen",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -323,7 +323,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "slash",
+                                    "key_code": "equal_sign",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -344,7 +344,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "hyphen",
+                                    "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -360,7 +360,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "equal_sign",
+                                    "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
