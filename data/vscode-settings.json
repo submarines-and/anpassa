@@ -5,6 +5,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.autoReveal": false,
+    "explorer.excludeGitIgnore": false,
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit"
@@ -22,6 +23,7 @@
     "scssFormatter.printWidth": 500,
     "editor.wordWrapColumn": 500,
     "html.format.wrapLineLength": 0,
+    "xml.format.maxLineWidth": 0,
     "editor.wordWrap": "on",
     "extensions.ignoreRecommendations": true,
     "workbench.tree.expandMode": "singleClick",
@@ -44,7 +46,6 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": "off"
     },
-    "explorer.excludeGitIgnore": false,
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
     "[proto3]": {
         "editor.defaultFormatter": "zxh404.vscode-proto3"
