@@ -540,5 +540,9 @@
         "key": "shift+cmd+g",
         "command": "-workbench.action.terminal.openDetectedLink",
         "when": "accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "cmd+p",
+        "command": "fx-extension.localdebug"
     }
 ]
