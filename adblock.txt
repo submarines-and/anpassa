@@ -1,2 +1,3 @@
 flashback.org###top-banner-wrapper
 reddit.com##google-one-tap
+reddit.com##.left-sidebar
