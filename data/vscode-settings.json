@@ -30,9 +30,8 @@
     "redhat.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "window.autoDetectColorScheme": true,
-    "codeSight.warnings.showAll": false,
     "security.workspace.trust.untrustedFiles": "open",
     "[scss]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    }
+    },
 }
