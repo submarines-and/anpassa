@@ -30,3 +30,10 @@ sudo chflags schg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.pl
 
 # Disable game mode for wowup
 defaults write WowUp-CF.app/Contents/Info.plist LSApplicationCategoryType public.app-category.utilities 
+
+
+
+# Safari ghost cloud tab 
+rm ~/Library/Containers/com.apple.Safari/Data/Library/Safari/CloudTabs.db
+rm ~/Library/Containers/com.apple.Safari/Data/Library/Safari/CloudTabs.db-shm
+rm ~/Library/Containers/com.apple.Safari/Data/Library/Safari/CloudTabs.db-wal
