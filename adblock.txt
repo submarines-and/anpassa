@@ -18,3 +18,4 @@ wowhead.com##.sticky-news-heading
 wowhead.com##.main-news-heading
 rikatillsammans.se##.fc-dialog-container
 youtube.com##.YtInlinePlayerControlsTopLeftControls
+oldschool.runescape.wiki##.mainpage-header
