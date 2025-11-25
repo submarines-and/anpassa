@@ -15,3 +15,13 @@ defaults -currentHost write com.apple.Bluetooth RemoteWakeEnabled 0
 
 # Show "Bluesnooze" icon
 defaults delete com.oliverpeate.Bluesnooze hideIcon && killall Bluesnooze
+
+
+
+# M2 mac wakeup
+sudo pmset -a ttyskeepawake 0 tcpkeepalive 0 womp 0 networkoversleep 0 proximitywake 0 ring 0 displaysleep 2 disksleep 5 sleep 5  
+
+sudo pmset schedule cancelall  
+sudo pmset repeat cancel  
+
+sudo chflags schg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
