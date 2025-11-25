@@ -84,7 +84,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.blizzard\\.worldofwarcraft$"
+                                            "^com\\.blizzard\\.worldofwarcraft$",
+                                            "^net.runelite.launcher$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
