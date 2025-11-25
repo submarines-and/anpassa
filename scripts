@@ -11,3 +11,7 @@ Drag any window with ctrl+cmd+drag
 
 # Prevent bluetooth from waking the device
 defaults -currentHost write com.apple.Bluetooth RemoteWakeEnabled 0
+
+
+# Show "Bluesnooze" icon
+defaults delete com.oliverpeate.Bluesnooze hideIcon && killall Bluesnooze
