@@ -316,11 +316,11 @@
                         ]
                     },
                     {
-                        "description": "Sleep (cmd+opt+backspace)",
+                        "description": "Sleep (cmd+opt+dash)",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "delete_or_backspace",
+                                    "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
                                             "command",
