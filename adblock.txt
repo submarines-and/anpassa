@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.15
+! Version: 0.0.16
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
@@ -19,4 +19,4 @@ youtube.com##.YtInlinePlayerControlsTopLeftControls
 youtube.com##.ytmPaidContentOverlayHost
 youtube.com##.ytInlinePlayerControlsDarkenedOverlay
 youtube.com###guide
-youtube.com#$##page-manager{ margin-left: 0 !important; }
+youtube.com#$##page-manager{ background-color: #8c8787 !important; }
