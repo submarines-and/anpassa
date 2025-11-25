@@ -199,11 +199,6 @@
     },
     {
         "key": "cmd+b",
-        "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "make run\u000D" }
-    },
-    {
-        "key": "cmd+b",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
@@ -379,5 +374,10 @@
     {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
     }
 ]
