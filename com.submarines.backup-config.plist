@@ -6,11 +6,12 @@
         <string>com.submarines.backup-config</string>
 
         <key>Program</key>
-        <string>~/dev/anpassa/backup.sh</string>
+        <string>/Users/submarines/dev/anpassa/backup.sh</string>
+
         <key>RunAtLoad</key>
         <true />
 
-        <!-- Once per day -->
+        <!-- Once per day at 6am -->
         <key>StartCalendarInterval</key>
         <dict>
             <key>Hour</key>
