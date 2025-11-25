@@ -1,5 +1,9 @@
-# Instantly hide dock
+# Instantly hide dock (Intel)
 defaults write com.apple.Dock autohide-delay -float 0.0001; killall Dock
+
+# M2
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+
 
 # defaults write -g NSWindowShouldDragOnGesture -bool true   
 Drag any window with ctrl+cmd+drag
