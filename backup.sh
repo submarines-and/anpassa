@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Create data dir if missing
 mkdir -p ./data
 
