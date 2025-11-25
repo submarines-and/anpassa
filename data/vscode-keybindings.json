@@ -372,17 +372,6 @@
         "command": "workbench.action.previousEditorInGroup"
     },
     {
-        "key": "cmd+b",
-        "command": "workbench.action.tasks.runTask",
-        "args": "build",
-        "when": "editorLangId == 'cpp'"
-    },
-    {
-        "key": "cmd+p",
-        "command": "workbench.action.tasks.runTask",
-        "args": "clean"
-    },
-    {
         "key": "alt+o",
         "command": "-C_Cpp.SwitchHeaderSource",
         "when": "editorTextFocus && editorLangId == 'c' || editorTextFocus && editorLangId == 'cpp' || editorTextFocus && editorLangId == 'cuda-cpp'"
