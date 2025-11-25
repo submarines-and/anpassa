@@ -590,6 +590,30 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Page down on right command (which is swapped to option)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "down_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow",
+                                        "modifiers": [
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
