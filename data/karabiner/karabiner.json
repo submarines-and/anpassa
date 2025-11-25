@@ -743,6 +743,27 @@
                         ]
                     },
                     {
+                        "description": "Unused fn -> Window tiling hotkey",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "apple_vendor_top_case_key_code": "keyboard_fn"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "control",
+                                            "option",
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Mouse bindings for teams",
                         "manipulators": [
                             {
