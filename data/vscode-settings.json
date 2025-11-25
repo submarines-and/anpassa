@@ -139,5 +139,6 @@
         "unordered_set": "cpp",
         "__availability": "cpp"
     },
+    "search.defaultViewMode": "tree",
     "workbench.colorTheme": "Default Light+",
 }
