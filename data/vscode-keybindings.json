@@ -512,16 +512,6 @@
         "command": "-workbench.action.toggleAuxiliaryBar"
     },
     {
-        "key": "cmd+b",
-        "command": "workbench.action.debug.run",
-        "when": "debuggersAvailable && debugState == 'inactive'"
-    },
-    {
-        "key": "cmd+b",
-        "command": "workbench.action.debug.restart",
-        "when": "inDebugMode"
-    },
-    {
         "key": "shift+cmd+f5",
         "command": "-workbench.action.debug.restart",
         "when": "inDebugMode"
@@ -628,5 +618,49 @@
         "key": "shift+cmd+s",
         "command": "-workbench.action.files.saveLocalFile",
         "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "-platformio-ide.serialMonitor",
+        "when": "pioProjectReady"
+    },
+    {
+        "key": "cmd+b",
+        "command": "platformio-ide.build",
+        "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-platformio-ide.build",
+        "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "cmd+k u",
+        "command": "-workbench.action.closeUnmodifiedEditors"
+    },
+    {
+        "key": "shift+cmd+u",
+        "command": "-workbench.action.output.toggleOutput",
+        "when": "workbench.panel.output.active"
+    },
+    {
+        "key": "cmd+k cmd+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+u",
+        "command": "platformio-ide.upload",
+        "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "-platformio-ide.upload",
+        "when": "pioProjectReady && pioProjectTasksReady"
     }
 ]
