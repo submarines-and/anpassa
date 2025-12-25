@@ -158,4 +158,7 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "chat.disableAIFeatures": true,
+    "platformio-ide.disablePIOHomeStartup": true,
+    "window.confirmSaveUntitledWorkspace": false,
+    "platformio-ide.autoOpenPlatformIOIniFile": false,
 }
