@@ -1,20 +1,19 @@
 [Adblock Plus 2.0]
-! Version: 0.0.18
+! Version: 0.0.19
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/submarines-and/anpassa/blob/master/adblock.txt
 !
 flashback.org###top-banner-wrapper
+
 news.ycombinator.com##.hnname
+
 reddit.com###credential_picker_container
-reddit.com##.left-sidebar
-reddit.com##.left-sidebar-min
+reddit.com###left-sidebar-container
 reddit.com###reddit-logo
 reddit.com###right-sidebar-container
-oldschool.runescape.wiki##.mainpage-header
-oldschool.runescape.wiki##.vector-legacy-sidebar
-oldschool.runescape.wiki###mw-head
+
 youtube.com##.YtInlinePlayerControlsTopLeftControls
 youtube.com##.ytmPaidContentOverlayHost
 youtube.com##.ytInlinePlayerControlsDarkenedOverlay
