@@ -657,5 +657,22 @@
         "key": "ctrl+alt+u",
         "command": "-platformio-ide.upload",
         "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "-workbench.action.chat.openagent",
+        "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+i",
+        "command": "-testing.toggleInlineTestOutput"
+    },
+    {
+        "key": "shift+cmd+[Comma] shift+cmd+i",
+        "command": "-testing.toggleInlineCoverage"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "revealFileInOS"
     }
 ]
