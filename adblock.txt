@@ -1,12 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 0.0.19
+! Version: 0.0.20
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/submarines-and/anpassa/blob/master/adblock.txt
 !
 flashback.org###top-banner-wrapper
-
 news.ycombinator.com##.hnname
 
 reddit.com###credential_picker_container
@@ -20,3 +19,6 @@ youtube.com##.ytInlinePlayerControlsDarkenedOverlay
 youtube.com###guide
 youtube.com##ytd-mini-guide-renderer
 youtube.com#$##page-manager{ margin-left: 0 !important; }
+
+www.build-electronic-circuits.com###popup_overlay
+www.build-electronic-circuits.com###.popup-container 
