@@ -47,7 +47,6 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": "off"
     },
-    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
     "[proto3]": {
         "editor.defaultFormatter": "zxh404.vscode-proto3"
     },
@@ -64,7 +63,6 @@
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "clang-format.style": "{ ColumnLimit: 0 } ",
     "C_Cpp.clang_format_fallbackStyle": "{  BasedOnStyle: LLVM, PointerAlignment: Left, ColumnLimit: 0, IndentWidth: 4, AccessModifierOffset: -4, BreakBeforeBraces: Stroustrup }",
     "C_Cpp.files.exclude": {
         "**.o": true,
@@ -147,7 +145,6 @@
     "workbench.tree.enableStickyScroll": false,
     "git.path": "/usr/bin/git",
     "workbench.colorTheme": "Default Light Modern",
-    "chat.commandCenter.enabled": false,
     "[dockercompose]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
@@ -161,5 +158,5 @@
     "platformio-ide.disablePIOHomeStartup": true,
     "window.confirmSaveUntitledWorkspace": false,
     "platformio-ide.autoOpenPlatformIOIniFile": false,
-    "platformio-ide.activateProjectOnTextEditorChange": true,
+    "platformio-ide.activateProjectOnTextEditorChange": true
 }
