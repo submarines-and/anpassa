@@ -158,5 +158,6 @@
     "platformio-ide.disablePIOHomeStartup": true,
     "window.confirmSaveUntitledWorkspace": false,
     "platformio-ide.autoOpenPlatformIOIniFile": false,
-    "platformio-ide.activateProjectOnTextEditorChange": true
+    "platformio-ide.activateProjectOnTextEditorChange": true,
+    "rest-client.enableTelemetry": false
 }
