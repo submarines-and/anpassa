@@ -674,5 +674,10 @@
     {
         "key": "shift+cmd+i",
         "command": "revealFileInOS"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "platformio-ide.uploadAndMonitor",
+        "when": "pioProjectReady && pioProjectTasksReady"
     }
 ]
