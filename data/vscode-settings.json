@@ -159,5 +159,6 @@
     "window.confirmSaveUntitledWorkspace": false,
     "platformio-ide.autoOpenPlatformIOIniFile": false,
     "platformio-ide.activateProjectOnTextEditorChange": true,
-    "rest-client.enableTelemetry": false
+    "rest-client.enableTelemetry": false,
+    "platformio-ide.showEditorTitleShortcuts": false
 }
