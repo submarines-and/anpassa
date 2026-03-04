@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.24
+! Version: 0.0.25
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
@@ -17,13 +17,7 @@ youtube.com##.ytInlinePlayerControlsDarkenedOverlay
 youtube.com###guide
 youtube.com##ytd-mini-guide-renderer
 youtube.com#$##page-manager{ margin-left: 0 !important; }
-
-youtube.com##.ytd-thumbnail-overlay-loading-preview-renderer
-youtube.com##.ytd-video-preview
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-elementwww.youtube.com##.ytp-cards
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-cards-button-icon
+youtube.com#@%#document.cookie = "PREF=tz=Europe.Stockholm&f7=1"
 
 electrokit.com###index-slider
 electrokit.com###indexUspArea
