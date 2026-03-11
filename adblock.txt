@@ -17,7 +17,7 @@ youtube.com##.ytInlinePlayerControlsDarkenedOverlay
 youtube.com###guide
 youtube.com##ytd-mini-guide-renderer
 youtube.com#$##page-manager{ margin-left: 0 !important; }
-youtube.com#%#document.cookie = "PREF=tz=Europe.Stockholm&f7=1"
+youtube.com#%#document.cookie = "PREF=tz=Europe.Stockholm&f4=10000&f7=1"
 
 electrokit.com###index-slider
 electrokit.com###indexUspArea
