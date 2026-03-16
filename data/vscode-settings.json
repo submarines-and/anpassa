@@ -154,11 +154,12 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "chat.disableAIFeatures": true,
     "platformio-ide.disablePIOHomeStartup": true,
     "window.confirmSaveUntitledWorkspace": false,
     "platformio-ide.autoOpenPlatformIOIniFile": false,
     "platformio-ide.activateProjectOnTextEditorChange": true,
     "rest-client.enableTelemetry": false,
-    "platformio-ide.showEditorTitleShortcuts": false
+    "platformio-ide.showEditorTitleShortcuts": false,
+    "chat.agent.enabled": false,
+    "chat.disableAIFeatures": true
 }
