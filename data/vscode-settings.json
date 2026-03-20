@@ -161,5 +161,6 @@
     "rest-client.enableTelemetry": false,
     "platformio-ide.showEditorTitleShortcuts": false,
     "chat.agent.enabled": false,
-    "chat.disableAIFeatures": true
+    "chat.disableAIFeatures": true,
+    "C_Cpp.debugShortcut": false
 }
