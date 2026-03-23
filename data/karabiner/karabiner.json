@@ -292,30 +292,6 @@
                         ]
                     },
                     {
-                        "description": "Sleep (cmd+opt+delete)",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "delete_forward",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command",
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to_delayed_action": {
-                                    "to_if_invoked": [
-                                        {
-                                            "shell_command": "osascript -e 'tell application \"Finder\" to sleep'"
-                                        }
-                                    ]
-                                },
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Sleep (cmd+opt+dash)",
                         "manipulators": [
                             {
