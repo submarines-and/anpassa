@@ -1108,7 +1108,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "vk_none"
+                            "pointing_button": "button1"
                         }
                     ]
                 }
