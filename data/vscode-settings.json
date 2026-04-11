@@ -144,7 +144,7 @@
     "debug.onTaskErrors": "abort",
     "workbench.tree.enableStickyScroll": false,
     "git.path": "/usr/bin/git",
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Light Modern",
     "[dockercompose]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
