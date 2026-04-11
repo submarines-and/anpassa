@@ -651,7 +651,7 @@
     {
         "key": "cmd+b",
         "command": "platformio-ide.upload",
-        "when": "pioProjectReady && pioProjectTasksReady"
+        "when": "pioProjectReady && pioProjectTasksReady && editorLangId == 'cpp'"
     },
     {
         "key": "ctrl+alt+u",
@@ -678,6 +678,108 @@
     {
         "key": "shift+cmd+b",
         "command": "platformio-ide.uploadAndMonitor",
-        "when": "pioProjectReady && pioProjectTasksReady"
+        "when": "pioProjectReady && pioProjectTasksReady && editorLangId == 'cpp'"
+    },
+    {
+        "key": "cmd+k cmd+[Comma]",
+        "command": "-editor.createFoldingRangeFromSelection",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "resource == 'vscode-userdata:/Users/submarines/Library/Application%20Support/Code/User/keybindings.json'"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+x",
+        "command": "-testing.cancelRun"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+a",
+        "command": "-testing.debugAll"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+e",
+        "command": "-testing.debugFailTests"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+l",
+        "command": "-testing.debugLastRun"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+c",
+        "command": "-testing.debugAtCursor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+f",
+        "command": "-testing.debugCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+m",
+        "command": "-testing.openOutputPeek"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+r",
+        "command": "-testing.refreshTests",
+        "when": "testing.canRefresh"
+    },
+    {
+        "key": "shift+cmd+[Comma] shift+cmd+c",
+        "command": "-testing.coverageAtCursor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] shift+cmd+a",
+        "command": "-testing.coverageAll"
+    },
+    {
+        "key": "shift+cmd+[Comma] shift+cmd+l",
+        "command": "-testing.coverageLastRun"
+    },
+    {
+        "key": "shift+cmd+[Comma] l",
+        "command": "-testing.reRunLastRun"
+    },
+    {
+        "key": "shift+cmd+[Comma] e",
+        "command": "-testing.reRunFailTests"
+    },
+    {
+        "key": "shift+cmd+[Comma] f",
+        "command": "-testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] shift+cmd+f",
+        "command": "-testing.coverageCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] c",
+        "command": "-testing.runAtCursor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+[Comma] cmd+o",
+        "command": "-testing.showMostRecentOutput",
+        "when": "testing.hasAnyResults"
+    },
+    {
+        "key": "shift+cmd+[Comma] a",
+        "command": "-testing.runAll"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "-workbench.action.keybindingsReference"
+    },
+    {
+        "key": "shift+cmd+[Comma]",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "cmd+k cmd+s",
+        "command": "-workbench.action.openGlobalKeybindings"
     }
 ]
