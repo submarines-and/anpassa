@@ -164,5 +164,6 @@
     "chat.disableAIFeatures": true,
     "C_Cpp.debugShortcut": false,
     "workbench.preferredLightColorTheme": "Light Modern",
-    "workbench.preferredDarkColorTheme": "Dark Modern"
+    "workbench.preferredDarkColorTheme": "Dark Modern",
+    "yaml.format.printWidth": 5000
 }
