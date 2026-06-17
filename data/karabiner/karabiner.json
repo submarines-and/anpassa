@@ -925,6 +925,37 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Spotlight clipboard history",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
