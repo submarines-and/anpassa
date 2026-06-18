@@ -947,7 +947,7 @@
                                         ]
                                     },
                                     {
-                                        "hold_down_milliseconds": 10,
+                                        "hold_down_milliseconds": 150,
                                         "key_code": "vk_none"
                                     },
                                     {
