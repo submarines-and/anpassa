@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.26
+! Version: 0.0.27
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
@@ -9,6 +9,7 @@ reddit.com###credential_picker_container
 reddit.com###left-sidebar-container
 reddit.com###reddit-logo
 reddit.com###right-sidebar-container
+
 flashback.org###top-banner-wrapper
 
 youtube.com##.YtInlinePlayerControlsTopLeftControls
@@ -18,6 +19,13 @@ youtube.com###guide
 youtube.com##ytd-mini-guide-renderer
 youtube.com#$##page-manager{ margin-left: 0 !important; }
 youtube.com#%#document.cookie = "PREF=tz=Europe.Stockholm&f4=10000&f7=1"
+
+youtube.com##ytd-rich-section-renderer:has(ytd-rich-item-renderer a[href^="/shorts"])
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-guide-entry-renderer a[title="Shorts"]
+youtube.com##ytd-mini-guide-entry-renderer[aria-label="Shorts"]
+youtube.com##a[href^="/shorts"]
+youtube.com##ytd-reel-video-renderer
 
 build-electronic-circuits.com###popup_overlay
 build-electronic-circuits.com##div.popup-container
