@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 0.0.27
+! Version: 0.0.28
 ! Title: submarines filter list
 ! Last modified:
 ! Expires: 1 hours (update frequency)
@@ -26,6 +26,7 @@ youtube.com##ytd-guide-entry-renderer a[title="Shorts"]
 youtube.com##ytd-mini-guide-entry-renderer[aria-label="Shorts"]
 youtube.com##a[href^="/shorts"]
 youtube.com##ytd-reel-video-renderer
+youtube.com##grid-shelf-view-model
 
 build-electronic-circuits.com###popup_overlay
 build-electronic-circuits.com##div.popup-container
