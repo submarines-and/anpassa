@@ -781,5 +781,10 @@
     {
         "key": "cmd+k cmd+s",
         "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
     }
 ]
