@@ -46,7 +46,7 @@
         "command": "-actions.findWithSelection"
     },
     {
-        "key": "cmd+e",
+        "key": "cmd+l",
         "command": "workbench.action.quickOpen"
     },
     {
