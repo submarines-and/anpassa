@@ -167,5 +167,6 @@
     "workbench.preferredDarkColorTheme": "Dark Modern",
     "yaml.format.printWidth": 5000,
     "update.showReleaseNotes": false,
-    "editor.folding": false
+    "editor.folding": false,
+    "network.meteredConnection": "off"
 }
