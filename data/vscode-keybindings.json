@@ -786,5 +786,9 @@
         "key": "cmd+l",
         "command": "-expandLineSelection",
         "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.debug.run"
     }
 ]
